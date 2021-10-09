@@ -1,0 +1,17 @@
+name: MistStaffChat
+main: me.feehgamer.msc.bukkit.Main
+version: maven-version-number
+api-version: 1.16
+softdepend: [PlaceholderAPI]
+commands:
+  staffchat:
+    aliases: ["sc", "staff"]
+  sceditor:
+    aliases: ["scedit"]
+permissions:
+  miststaffchat.use:
+    default: op
+  miststaffchat.editor:
+    default: op
+  miststaffchat.check:
+    default: op
